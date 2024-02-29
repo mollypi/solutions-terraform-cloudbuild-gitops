@@ -1,0 +1,32 @@
+repo_name: mollypi/solutions-terraform-cloudbuild-gitops
+report_id: 3a09d02ba6dc29a5e1f8ace76a68fdf0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:46:07+00:00'
+requested_by: fernandorubbo
+provider: github
+branch: dev
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/solutions-terraform-cloudbuild-gitops
+  detection_source: Repo Metadata
+- name: Google Cloud Build
+  description: Continuously build, test, and deploy.
+  website_url: https://cloud.google.com/cloud-build
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Deployment
+  image_url: https://img.stackshare.io/service/9309/PoHJY3K8_400x400.jpg
+  detection_source_url: https://github.com/mollypi/solutions-terraform-cloudbuild-gitops/blob/dev/cloudbuild.yaml
+  detection_source: cloudbuild.yaml
+  last_updated_by: fernandorubbo
+  last_updated_on: 2019-05-29 17:28:36.000000000 Z
